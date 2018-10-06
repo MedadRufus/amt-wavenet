@@ -108,7 +108,7 @@ Table below shows the transcription results for selected samples. The shade of g
 | J. S. Bach    | ![](assets/bach-estim.png) | ![](assets/bach-eval.png) |
 | Hiromi Uehara | ![](assets/hiro-estim.png) | ![](assets/hiro-eval.png) |
 
-For both samples, you can listen to the input and its transcription samples separately as well as overlaid in this [SoundCloud album](https://soundcloud.com/user-127638743/sets/amt-wavenet-demo-tracks).
+For both samples, you can listen to the input and its transcription separately as well as overlaid in this [SoundCloud album](https://soundcloud.com/user-127638743/sets/amt-wavenet-demo-tracks).
 
 ## Missing features:
 * A `transcribe.py` script to enable generating transcriptions using a previously trained model, including hamming window smoothing of predictions, possibly supplied soundfont for `fluidsynth` synthesis, and not requiring labels for performance evaluation as [`test.py`](test.py) does.
