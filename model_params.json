@@ -1,0 +1,12 @@
+{
+    "audio_sr": 16000,
+    "filter_width": 2,
+    "dilations": [1, 2, 4, 8, 16, 32, 64, 128, 256, 512,
+                  1, 2, 4, 8, 16, 32, 64, 128, 256, 512],
+    "residual_channels": 128,
+    "dilation_channels": 128,
+    "output_channels": 128,
+    "skip_channels": 128,
+    "use_biases": true,
+    "initial_filter_width": 2
+}

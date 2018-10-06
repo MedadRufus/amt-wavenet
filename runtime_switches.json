@@ -1,0 +1,42 @@
+{
+
+    "_section" : "Evaluation & rendering",
+    "evaluate_every" : 1000,
+    "histograms" : false,
+    "log_image" : true,
+    "log_sound" : true,
+    "midi_sr" : 100,
+
+    "_section" : "Storing model checkpoints",
+    "checkpoint_every" : 10000,
+
+    "_section" : "Storing metadata",
+    "store_meta" : false,
+    "store_every" : 50,
+
+
+    "_section" : "Documentation",
+
+    "_evaluate_every" :
+    ["Specifies how many steps to evaluate the model after. ",
+     "Eeach model evaluation consists of inference on validation data, ",
+     "calculation of validation performance and storage of model checkpoint ",
+     "if new best validation performance was achieved."],
+    "_histograms" : "Whether or not to store histogram summaries.",
+    "_log_image" : "Whether or not to visualize validation predictions.",
+    "_log_sound" : "Whether or not to render audio validation predictions.",
+    "_midi_sr" :
+    ["Piano roll sampling frequency [Hz] to use when creating visualizations ",
+     "and audio from estimations and labels for TensorBoard summaries."],
+
+    "_checkpoint_every" : "How many steps to save each checkpoint after.",
+
+    "_store_meta" :
+    ["Whether to store metadata - advanced debugging information ",
+     "(execution time, memory consumption) for use with TensorBoard."],
+    "_store_every" : "How often to store metadata (interval in steps).",
+
+
+    "_the_end" : "last entry"
+
+}

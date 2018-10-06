@@ -1,0 +1,33 @@
+{
+
+    "_section" : "Training hyper-parameters",
+    "num_steps" : 7000000,
+    "learning_rate" : 0.001,
+    "momentum" : 0.9,
+    "l2_reg_str" : 0.0,
+    "pos_weight" : 1.0,
+    "early_stop_limit" : null,
+
+
+    "_section" : "Documentation",
+
+    "_num_steps" : "Number of training steps.",
+
+    "_learning_rate" : "Learning rate for training.",
+    "_momentum" :
+    ["Specify the momentum to be used by sgd or rmsprop optimizer. ",
+     "Ignored by the adam optimizer."],
+    "_l2_reg_str" : "Coefficient in the L2 regularization. Not used if 0 or null.",
+    "_pos_weight" :
+    ["Weight of positive error relative to negative error in sigmoid cross-entropy ",
+     "computation. See docs for tf.nn.weighted_cross_entropy_with_logits."],
+
+    "_early_stop_limit" :
+    ["Specifies how many evaluation steps can pass without improvement of ",
+     "best validation performance before training is stopped. ",
+     "If null (which results in pythonic None), early stopping is not used."],
+
+
+    "_the_end" : "last entry"
+
+}

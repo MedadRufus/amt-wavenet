@@ -1,0 +1,5 @@
+librosa>=0.6.2
+matplotlib>=3.0.0
+mir_eval>=0.4
+pretty_midi>=0.2.8
+tensorflow>=1.6.0, <2.0.0
